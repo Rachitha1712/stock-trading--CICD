@@ -1,7 +1,7 @@
 def trading_decision(price):
 
     if price < 100:
-        return "BUYED"
+        return "BUY"
 
     elif price <= 200:
         return "HOLD"
